@@ -1,0 +1,261 @@
+/* style.css */
+
+body  {
+  background-color: #ffffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.jumbotron {
+  background-image: url(img/header_paasivu.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Calibri Light", arial;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000000;
+height: 700 px;
+}
+
+
+.jumbotron2  {
+  background-color: #32CD32;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color: #ffffff;
+  font-family: "Calibri Light", arial;
+  text-align: center;
+  text-shadow: 2px 2px 5px #008000;
+}
+
+.picture {
+  background-image: url(img/ananas.jpg);
+  background-repeat:no-repeat;
+ background-size:cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* Style the links inside the navigation bar */
+.nav-link {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.collapse navbar-collapse {
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  color: #000000;
+  list-style-type: none;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Calibri Light", arial;
+  padding: 17px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 0px 35px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  color: #32CD32;
+}
+
+
+a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:link:active, a:visited:active {
+}
+
+a:hover {
+  color: #32CD32;
+}
+
+.header {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Calibri", arial;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+
+h1 {
+  color: #ffffff;
+  font-family: "Bahnschrift", "Calibri Black", arial;
+  text-align: center;
+  font-size: 70px;
+  position: center;
+  float: vertical-center; /* If you want it to be centered */
+}
+
+h2 {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Calibri", arial;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 25px;
+}
+
+h3 {
+  color: #32CD32;
+  font-size: 32px;
+  font-family: "Bahnschrift bold", "Calibri Black", arial;
+  text-align: center;
+  padding: 25px;
+}
+
+h5 {
+  color: #000000;
+  font-size: 12px;
+  font-family: "Bahnschrift light","Calibri Light", arial;
+  text-align: center;
+  padding: 5px;
+}
+
+
+h7 {
+  color: #32CD32;
+  font-size: 16px;
+  font-family: "Bahnschrift","Calibri Light", arial;
+  text-align: center;
+}
+
+
+p {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Bahnschrift light","Calibri Light", arial;
+  text-align: center;
+}
+
+
+.col-sm-4 {
+  padding: 25px 30px;
+  text-align: center;
+}
+
+.col-sm-3 {
+  padding: 25px;
+  text-align: center;
+}
+
+.col-sm-6 {
+  padding: 0px;
+  text-align: center;
+}
+
+.col-sm-12 {
+  background-image: url(img/header_paasivu.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000000;
+
+  float: center; /* If you want it to be centered */
+  padding-top: 10%;
+}
+
+.row2 {
+  background-color: #F5F5F5;
+text-align: center;
+}
+
+
+.alakolumni {
+  background-color: #F5F5F5;
+  color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  margin: auto;
+}
+
+table {
+  font-family: arial, verdana;
+  border-collapse: collapse;
+  width: 100%;
+  vertical-align: middle;
+}
+
+td {
+  padding: 12px;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Bahnschrift","Calibri Bold", arial;
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  color: #32CD32;
+  font-size: 32px;
+  font-family: "Bahnschrift bold","Calibri Bold", arial;
+  text-align: center;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+}
+
+.footertext {
+  color: #cccccc;
+  font-size: 12px;
+  font-family: "Bahnschrift light","Calibri Light", arial;
+  text-align: center;
+  padding: 5px;
+}
